@@ -66,6 +66,15 @@ body, html {
   display: block;
 }
 
+.techImageGrey {
+  background-color:#F0F0F0;
+  margin: 30px auto;
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+
 .titleImage{
   height: 50px;
   width: auto;
