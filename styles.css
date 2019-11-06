@@ -1,0 +1,93 @@
+/**/
+.parallax {
+  /* The image used */
+  background-image: url("background.jpg");
+  /* Set a specific height */
+  height: 2000px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1px;
+
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.card {
+  opacity: 1;
+  /*background-color: #E0E0E0;*/
+  background-color: white;
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.mockupDiv {
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.textDiv {
+text-align: center;
+margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+}
+
+.techDiv {
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}
+
+body, html {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  /*font-style: Semi-Bold*/
+  /*font-style: Bold;*/
+  margin: 0;
+  text-align: center;
+}
+
+.techImage {
+  margin: 30px auto;
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+.titleImage{
+  height: 50px;
+  width: auto;
+}
+
+
+.mockupImage {
+  margin: 30px auto;
+  height: 400px;
+  width: auto;
+  display: block;
+}
+
+.githubCode {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+}
+
+hr {
+  color: white;
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 400px
+}
