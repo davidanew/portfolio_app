@@ -100,3 +100,7 @@ hr {
   border-radius: 2px;
   width: 200px
 }
+
+a {
+  text-decoration: none;
+}
