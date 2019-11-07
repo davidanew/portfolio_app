@@ -3,6 +3,7 @@
 @media only screen and  (max-width: 1150px) {
 
   .parallax {
+    /*https://wallpaperaccess.com/full/1651419.jpg*/
     background-image: url("code_div8.jpg");
     height: 5550px;
     background-attachment: fixed;
